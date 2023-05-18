@@ -2,37 +2,110 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.dark-mode {
+ width: 100%;
+ height: 1000px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dark-mode {
+  background-color: #333;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.light-mode {
+  background-color: #fff;
+  color: #333;
+}
+
+.light-mode button {
+  cursor: pointer;
+  background-color: rgb(209, 51, 190);
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+
+}
+
+.dark-mode button {
+  cursor: pointer;
+  background-color: rgb(222, 193, 218);
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+
+}
+input[type="text"] {
+  width: 50%;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.content {
+  margin: 20px;
+}
+
+.review-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #e9e7e7;
+  color: #333;
+  border-radius: 4px;
+  width: 100%;
+
+  
+}
+
+.review-item p {
+  margin: 5px 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.date_review {
+  top: 10px;
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.review-item i {
+  cursor: pointer;
+  color: #ff0000;
+  margin-left: 60%;
 }
+
+.div_content {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  word-wrap: break-word;
+}
+
+.form_review {
+
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #e9e7e7;
+  color: #333;
+  border-radius: 4px;
+  width: 230px;
+
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+}
+
+.search {
+margin-top: 30px;
+
+}
+
+
